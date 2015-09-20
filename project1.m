@@ -35,8 +35,6 @@ DesignMatrix_gd(M,0.9,1)
 train_gd
 test_gd
 surf(ERMS_VAL_CFS(2:end,:));
-fprintf('My ubit name is %s\n','kkiran');
-fprintf('My student number is %d\n',50133145);
 fprintf('the model complexity M_cfs is %d\n', M_cfs);
 fprintf('the model complexity M_gd is %d\n', M_gd);
 fprintf('the regularization parameters lambda_cfs is %4.2f\n', lambda_cfs);
